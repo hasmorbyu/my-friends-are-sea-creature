@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.5.0"
+    }
+}
+
+allprojects {
+    apply plugin: 'eclipse'
+    version = '1.0.0'
+    ext {
+        appName = 'My Friends Are Sea Creatures'
+        gdxVersion = '1.12.1'
+    }
+    repositories {
+        mavenCentral()
+        google()
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    }
+}
+
+configure(subprojects.findAll { it.name != 'android' }) {
+    apply plugin: 'java-library'
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}

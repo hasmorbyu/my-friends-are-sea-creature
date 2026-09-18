@@ -1,0 +1,28 @@
+apply plugin: 'application'
+
+mainClassName = 'com.browl.seacreatures.lwjgl3.Lwjgl3Launcher'
+application {
+    mainClass = mainClassName
+}
+
+sourceSets.main.resources.srcDirs += [rootProject.file('assets').path]
+
+dependencies {
+    implementation project(':core')
+    implementation "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+    implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+}
+
+run {
+    workingDir = rootProject.file('assets').path
+    standardInput = System.in
+}
+
+task terminal(type: JavaExec) {
+    group = 'application'
+    description = 'Runs the text-only terminal mode (no graphics window).'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.browl.seacreatures.lwjgl3.TerminalMain'
+    workingDir = rootProject.file('assets').path
+    standardInput = System.in
+}

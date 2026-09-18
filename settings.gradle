@@ -1,0 +1,14 @@
+rootProject.name = 'my-friends-are-sea-creatures'
+
+include 'core'
+include 'lwjgl3'
+
+// The android module is included only when the Android Gradle Plugin / SDK
+// is available on the building machine. This lets `./gradlew lwjgl3:run`
+// and `./run.sh --terminal` work out of the box on machines without the
+// Android SDK installed, while still keeping android/ as a normal module
+// that Android Studio (or a CI box with ANDROID_HOME set) can build.
+def androidHome = System.getenv('ANDROID_HOME') ?: System.getenv('ANDROID_SDK_ROOT')
+if (androidHome != null && new File(androidHome).exists()) {
+    include 'android'
+}

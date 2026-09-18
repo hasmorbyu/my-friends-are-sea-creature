@@ -1,0 +1,142 @@
+{
+"friends": [
+	{
+		"id": "60e1139f-4aff-46cb-931b-d81dd5c9962f",
+		"name": "Krishna",
+		"photoPath": "dbbf81c5-7154-49f7-9ef4-c80783e8b686.jpeg",
+		"creatureType": "SQUID",
+		"personality": {
+			"scores": {
+				"class": "java.util.HashMap",
+				"CALM": 40,
+				"INTROVERTED": 16,
+				"CHAOS": 52,
+				"DRAMATIC": 10,
+				"SOCIAL": 46,
+				"COMPETITIVE": 22,
+				"LAZY": 10,
+				"CURIOUS": 16,
+				"ENERGETIC": 22,
+				"GREEDY": 46
+			}
+		},
+		"hunger": 60,
+		"happiness": 95,
+		"coinsEarned": 163,
+		"x": 174.47636,
+		"y": 257.16147,
+		"wanderAngle": 75.20667,
+		"eventHistory": [
+			"Krishna helped Areen clean the aquarium.",
+			"Areen stole Krishna's food.",
+			"Areen and Krishna are arguing over absolutely nothing.",
+			"Krishna found 11 coins hidden in the treasure chest.",
+			"Areen challenged Krishna to a race.",
+			"Areen helped Krishna clean the aquarium.",
+			"Krishna has discovered capitalism.",
+			"Krishna stole Areen's food.",
+			"Krishna and Areen are arguing over absolutely nothing.",
+			"Areen helped Krishna clean the aquarium.",
+			"Krishna challenged Areen to a race.",
+			"Krishna found 24 coins hidden in the treasure chest.",
+			"Krishna is offended by your choice of food.",
+			"Krishna has discovered capitalism.",
+			"Areen stole Krishna's food.",
+			"Krishna and Areen are arguing over absolutely nothing.",
+			"Areen challenged Krishna to a race.",
+			"Areen helped Krishna clean the aquarium.",
+			"Krishna found 23 coins hidden in the treasure chest.",
+			"Areen stole Krishna's food."
+		]
+	},
+	{
+		"id": "2341901f-0b24-449c-bc51-33cc5d724389",
+		"name": "Areen",
+		"photoPath": "74c77dc9-6638-426b-b77e-9033d5645c63.jpeg",
+		"creatureType": "PUFFERFISH",
+		"personality": {
+			"scores": {
+				"class": "java.util.HashMap",
+				"CALM": 16,
+				"INTROVERTED": 10,
+				"CHAOS": 58,
+				"DRAMATIC": 58,
+				"SOCIAL": 28,
+				"COMPETITIVE": 28,
+				"LAZY": 22,
+				"CURIOUS": 40,
+				"ENERGETIC": 34,
+				"GREEDY": 10
+			}
+		},
+		"happiness": 100,
+		"energy": 85,
+		"coinsEarned": 101,
+		"x": 688.9184,
+		"y": 333.81583,
+		"wanderAngle": 284.05304,
+		"eventHistory": [
+			"Krishna helped Areen clean the aquarium.",
+			"Areen found 15 coins hidden in the treasure chest.",
+			"Areen has requested a promotion to Apex Manager.",
+			"Areen stole Krishna's food.",
+			"Areen and Krishna are arguing over absolutely nothing.",
+			"Areen challenged Krishna to a race.",
+			"Areen is offended by your choice of food.",
+			"Areen helped Krishna clean the aquarium.",
+			"Someone moved the treasure chest. Nobody will admit to it.",
+			"Areen has misplaced seven things again.",
+			"Areen found 24 coins hidden in the treasure chest.",
+			"Krishna stole Areen's food.",
+			"Krishna and Areen are arguing over absolutely nothing.",
+			"Areen helped Krishna clean the aquarium.",
+			"Krishna challenged Areen to a race.",
+			"Areen has requested a promotion to Apex Manager.",
+			"Someone moved the treasure chest. Nobody will admit to it.",
+			"Areen stole Krishna's food.",
+			"Areen has misplaced seven things again.",
+			"Krishna and Areen are arguing over absolutely nothing."
+		]
+	}
+],
+"relationshipManager": {
+	"scores": {
+		"class": "java.util.HashMap",
+		"2341901f-0b24-449c-bc51-33cc5d724389|60e1139f-4aff-46cb-931b-d81dd5c9962f": -4
+	}
+},
+"coins": 346,
+"settings": {},
+"recentNotifications": [
+	"Krishna helped Areen clean the aquarium.",
+	"Areen found 15 coins hidden in the treasure chest.",
+	"Areen has requested a promotion to Apex Manager.",
+	"Areen stole Krishna's food.",
+	"Areen and Krishna are arguing over absolutely nothing.",
+	"Krishna found 11 coins hidden in the treasure chest.",
+	"Areen challenged Krishna to a race.",
+	"Areen is offended by your choice of food.",
+	"Areen helped Krishna clean the aquarium.",
+	"Someone moved the treasure chest. Nobody will admit to it.",
+	"Krishna has discovered capitalism.",
+	"Areen has misplaced seven things again.",
+	"Areen found 24 coins hidden in the treasure chest.",
+	"Krishna stole Areen's food.",
+	"Krishna and Areen are arguing over absolutely nothing.",
+	"Areen helped Krishna clean the aquarium.",
+	"Krishna challenged Areen to a race.",
+	"Krishna found 24 coins hidden in the treasure chest.",
+	"Areen has requested a promotion to Apex Manager.",
+	"Someone moved the treasure chest. Nobody will admit to it.",
+	"Krishna is offended by your choice of food.",
+	"Krishna has discovered capitalism.",
+	"Areen stole Krishna's food.",
+	"Areen has misplaced seven things again.",
+	"Krishna and Areen are arguing over absolutely nothing.",
+	"Areen challenged Krishna to a race.",
+	"Areen helped Krishna clean the aquarium.",
+	"Krishna found 23 coins hidden in the treasure chest.",
+	"Someone moved the treasure chest. Nobody will admit to it.",
+	"Areen stole Krishna's food."
+]
+}
